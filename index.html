@@ -14,10 +14,52 @@
 
     <p>git commit -m "Message pertinent"</p>
 
+<p>Une branche est un ensemble de commit => ex : A->B->C->D </p>
+<p>Un tag de commit pointe toujours sur le dernier commit</p>
+<p>On peut taguer un commit de manière statique</p>
+
+<h2>Un commit c'est : </h2>
+<ul>
+    <li>Id => SHA-1</li>
+    <li>Les modifications</li>
+    <li>Commentaire du Commit ( le -m )</li>
+    <li>Les infos de l'auteur du commit ( nom + email )</li>
+    <li>Les dates</li>
+    <li>Liste des id des parents</li>
+</ul>
+
+<h2>Un tag c'est : </h2>
+
+<ul>
+    <li>Intitulé</li>
+    <li>Pointeur => SHA-1</li>
+</ul>
+
+
+<h1>Pointeur HEAD</h1>
+<p>Il pointe le commit ou nous sommes actuellement.</p>
+
 
 <h1>Diff</h1>
 
     <p>git diff</p>
     <p>Permet de voir les differences entre les fichiers.</p>
+
+
+<h1>Git log</h1>
+
+<p>Permet de voir l'historique de nos versions.</p>
+
+git log -n number => donne le nombre de commit à afficher
+
+
+<h1>Git SHOW</h1>
+
+<p>Permet d'avoir plus de détail sur un commit</p>
+
+<p>git show "SHA-1 ID " ou "tag"</p>
+
+<p></p>
+
 </body>
 </html>
