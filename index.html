@@ -88,10 +88,48 @@ git log -n number => donne le nombre de commit à afficher
 <h1>DEPOT DISTANT</h1>
 
 <p>Connaitre le dépot distant</p>
+
 <p>git remote -v</p>
 
 
+<p>PUSH mon projet</p>
 
+git push -u origin main
+
+<p>Push les Tags</p>
+<p>De base git ne push pas les tags</p>
+
+git push origin "nom du tag"
+
+<p>Pour tous les tags</p>
+
+git push --tags
+
+
+<p>Git pull</p>
+
+<p>Permet de récuperer les données sur un serveur distant</p>
+
+
+<h1>Git blame</h1>
+
+<p>permet de fliquer un fichier et connaitre le commit et l'utilisateur qui l'a modifier</p>
+
+<p>git blame + nom du fichier</p>
+
+
+<h1>Gitignore</h1>
+
+touch .gitignore
+
+
+<h1>Les Stash</h1>
+
+<p>On veux changer de version avec checkout soit on commit soit on stash nos modifications</p>
+
+<p>git stash list, git stash show + index du stash</p>
+
+<p>ajouter les modif git stash pop + index du stash</p>
 
 </body>
 </html>
